@@ -12,24 +12,24 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * {@link WordAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
- * based on a data source, which is a list of {@link Word} objects.
+ * {@link SongAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
+ * based on a data source, which is a list of {@link Song} objects.
  */
 
-public class WordAdapter extends ArrayAdapter<Word> {
+public class SongAdapter extends ArrayAdapter<Song> {
 
-    /** Resource ID for the background color for this list of words */
+    /** Resource ID for the background color for this list of songs */
     private int mColorResourceId;
 
     /**
-     * Create a new {@link WordAdapter} object.
+     * Create a new {@link SongAdapter} object.
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param words is the list of {@link Word}s to be displayed.
-     * @param colorResourceId is the resource ID for the background color for this list of words
+     * @param songs is the list of {@link Song}s to be displayed.
+     * @param colorResourceId is the resource ID for the background color for this list of songs
      */
-    public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
-        super(context, 0, words);
+    public SongAdapter(Context context, ArrayList<Song> songs, int colorResourceId) {
+        super(context, 0, songs);
         mColorResourceId = colorResourceId;
     }
 
@@ -42,27 +42,27 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
-        Word currentWord = getItem(position);
+        // Get the {@link Song} object located at this position in the list
+        Song currentSong = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
-        miwokTextView.setText(currentWord.getMiwokTranslationId());
+        // Find the TextView in the list_item.xml layout with the ID song_name_text_view.
+        TextView songNameTextView = (TextView) listItemView.findViewById(R.id.song_name_text_view);
+        // Get the name (Miwok translation in Miwok app) of the song from the currentSong object
+        // and set this text on the songName TextView.
+        songNameTextView.setText(currentSong.getSongNameId());
 
-        // Find the TextView in the list_item.xml layout with the ID default_text_view.
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
-        // Get the default translation from the currentWord object and set this text on
-        // the default TextView.
-        defaultTextView.setText(currentWord.getDefaultTranslationId());
+        // Find the TextView in the list_item.xml layout with the ID artist_name_text_view.
+        TextView artistNameTextView = (TextView) listItemView.findViewById(R.id.artist_name_text_view);
+        // Get the artist's name (default translation in Miwok app) of the song from the currentSong
+        // object and set this text on the artistName TextView.
+        artistNameTextView.setText(currentSong.getArtistNameId());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        // Check if an image is provided for this word or not
-        if (currentWord.hasImage()) {
+        // Check if an image is provided for this song or not
+        if (currentSong.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentWord.getImageResourceId());
+            imageView.setImageResource(currentSong.getImageResourceId());
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {

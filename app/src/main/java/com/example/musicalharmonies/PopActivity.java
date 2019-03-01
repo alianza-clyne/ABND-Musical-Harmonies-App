@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 
 
-    public class FamilyActivity extends AppCompatActivity {
+    public class PopActivity extends AppCompatActivity {
 
         /** Handles playback of all the sound files */
         private MediaPlayer mMediaPlayer;
@@ -47,7 +47,7 @@ import java.util.ArrayList;
                     // both cases the same way because our app is playing short sound files.
 
                     // Pause playback and reset player to the start of the file. That way, we can
-                    // play the word from the beginning when we resume playback.
+                    // play the song from the beginning when we resume playback.
                     mMediaPlayer.pause();
                     mMediaPlayer.seekTo(0);
                 } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
@@ -64,45 +64,45 @@ import java.util.ArrayList;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.word_list);
+            setContentView(R.layout.song_list);
 
             // Create and setup the {@link AudioManager} to request audio focus
             mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
-            // Create a list of words
-            final ArrayList<Word> words = new ArrayList<Word>();
-            words.add(new Word(R.string.family_father, R.string.miwok_family_father,
+            // Create a list of songs
+            final ArrayList<Song> songs = new ArrayList<Song>();
+            songs.add(new Song(R.string.family_father, R.string.miwok_family_father,
                     R.drawable.family_father, R.raw.family_father));
-            words.add(new Word(R.string.family_mother, R.string.miwok_family_mother,
+            songs.add(new Song(R.string.family_mother, R.string.miwok_family_mother,
                     R.drawable.family_mother, R.raw.family_mother));
-            words.add(new Word(R.string.family_son, R.string.miwok_family_son,
+            songs.add(new Song(R.string.family_son, R.string.miwok_family_son,
                     R.drawable.family_son, R.raw.family_son));
-            words.add(new Word(R.string.family_daughter, R.string.miwok_family_daughter,
+            songs.add(new Song(R.string.family_daughter, R.string.miwok_family_daughter,
                     R.drawable.family_daughter, R.raw.family_daughter));
-            words.add(new Word(R.string.family_older_brother, R.string.miwok_family_older_brother,
+            songs.add(new Song(R.string.family_older_brother, R.string.miwok_family_older_brother,
                     R.drawable.family_older_brother, R.raw.family_older_brother));
-            words.add(new Word(R.string.family_younger_brother, R.string.miwok_family_younger_brother,
+            songs.add(new Song(R.string.family_younger_brother, R.string.miwok_family_younger_brother,
                     R.drawable.family_younger_brother, R.raw.family_younger_brother));
-            words.add(new Word(R.string.family_older_sister, R.string.miwok_family_older_sister,
+            songs.add(new Song(R.string.family_older_sister, R.string.miwok_family_older_sister,
                     R.drawable.family_older_sister, R.raw.family_older_sister));
-            words.add(new Word(R.string.family_younger_sister, R.string.miwok_family_younger_sister,
+            songs.add(new Song(R.string.family_younger_sister, R.string.miwok_family_younger_sister,
                     R.drawable.family_younger_sister, R.raw.family_younger_sister));
-            words.add(new Word(R.string.family_grandmother, R.string.miwok_family_grandmother,
+            songs.add(new Song(R.string.family_grandmother, R.string.miwok_family_grandmother,
                     R.drawable.family_grandmother, R.raw.family_grandmother));
-            words.add(new Word(R.string.family_grandfather, R.string.miwok_family_grandfather,
+            songs.add(new Song(R.string.family_grandfather, R.string.miwok_family_grandfather,
                     R.drawable.family_grandfather, R.raw.family_grandfather));
 
-            // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+            // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
             // adapter knows how to create list items for each item in the list.
-            WordAdapter adapter = new WordAdapter(this, words, R.color.category_family);
+            SongAdapter adapter = new SongAdapter(this, songs, R.color.category_pop);
 
             // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
             // There should be a {@link ListView} with the view ID called list, which is declared in the
-            // word_list.xml layout file.
+            // song_list.xml layout file.
             ListView listView = (ListView) findViewById(R.id.list);
 
-            // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-            // {@link ListView} will display list items for each {@link Word} in the list.
+            // Make the {@link ListView} use the {@link SongAdapter} we created above, so that the
+            // {@link ListView} will display list items for each {@link Song} in the list.
             listView.setAdapter(adapter);
 
             // Set a click listener to play the audio when the list item is clicked on
@@ -113,8 +113,8 @@ import java.util.ArrayList;
                     // play a different sound file
                     releaseMediaPlayer();
 
-                    // Get the {@link Word} object at the given position the user clicked on
-                    Word word = words.get(position);
+                    // Get the {@link Song} object at the given position the user clicked on
+                    Song song = songs.get(position);
 
                     // Request audio focus so in order to play the audio file. The app needs to play a
                     // short audio file, so we will request audio focus with a short amount of time
@@ -126,8 +126,8 @@ import java.util.ArrayList;
                         // We have audio focus now.
 
                         // Create and setup the {@link MediaPlayer} for the audio resource associated
-                        // with the current word
-                        mMediaPlayer = MediaPlayer.create(FamilyActivity.this, word.getAudioResourceId());
+                        // with the current song
+                        mMediaPlayer = MediaPlayer.create(PopActivity.this, song.getAudioResourceId());
 
                         // Start the audio file
                         mMediaPlayer.start();

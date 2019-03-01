@@ -3,100 +3,105 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Musical Harmonies</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
+    <!-- 1st Category name for Gospel Melodies [CHAR LIMIT=20] -->
+    <!-- Used Category name for Numbers in Miwok App -->
+    <string name="category_gospel">Gospel Melodies</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <!-- 2nd Category name for Pop Melodies [CHAR LIMIT=20] -->
+    <!-- Used Category name for Family Members in Miwok App -->
+    <string name="category_pop">Pop Melodies</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
+    <!-- 3rd Category name for RnB Melodies [CHAR LIMIT=20] -->
+    <!-- Used Category name for Colors in Miwok App -->
+    <string name="category_rnb">RnB Melodies</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
+    <!-- 4th Category name for Instrumental Melodies [CHAR LIMIT=20] -->
+    <!-- Used Category name for Phrases in Miwok App -->
+    <string name="category_instrumental">Instrumental Melodies</string>
 
-    <!-- Vocabulary word for the color red [CHAR LIMIT=20] -->
+
+    <!-- Vocabulary song for the color red [CHAR LIMIT=20] -->
     <string name="color_red">red</string>
 
-    <!-- Vocabulary word for the color dusty yellow [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color dusty yellow [CHAR LIMIT=20] -->
     <string name="color_dusty_yellow">dusty yellow</string>
 
-    <!-- Vocabulary word for the color mustard yellow [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color mustard yellow [CHAR LIMIT=20] -->
     <string name="color_mustard_yellow">mustard yellow</string>
 
-    <!-- Vocabulary word for the color green [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color green [CHAR LIMIT=20] -->
     <string name="color_green">green</string>
 
-    <!-- Vocabulary word for the color brown [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color brown [CHAR LIMIT=20] -->
     <string name="color_brown">brown</string>
 
-    <!-- Vocabulary word for the color black [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color black [CHAR LIMIT=20] -->
     <string name="color_black">black</string>
 
-    <!-- Vocabulary word for the color gray [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color gray [CHAR LIMIT=20] -->
     <string name="color_gray">gray</string>
 
-    <!-- Vocabulary word for the color white [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the color white [CHAR LIMIT=20] -->
     <string name="color_white">white</string>
 
-    <!-- Vocabulary word for the number one [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number one [CHAR LIMIT=20] -->
     <string name="number_one">one</string>
 
-    <!-- Vocabulary word for the number two [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number two [CHAR LIMIT=20] -->
     <string name="number_two">two</string>
 
-    <!-- Vocabulary word for the number three [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number three [CHAR LIMIT=20] -->
     <string name="number_three">three</string>
 
-    <!-- Vocabulary word for the number four [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number four [CHAR LIMIT=20] -->
     <string name="number_four">four</string>
 
-    <!-- Vocabulary word for the number five [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number five [CHAR LIMIT=20] -->
     <string name="number_five">five</string>
 
-    <!-- Vocabulary word for the number six [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number six [CHAR LIMIT=20] -->
     <string name="number_six">six</string>
 
-    <!-- Vocabulary word for the number seven [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number seven [CHAR LIMIT=20] -->
     <string name="number_seven">seven</string>
 
-    <!-- Vocabulary word for the number eight [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number eight [CHAR LIMIT=20] -->
     <string name="number_eight">eight</string>
 
-    <!-- Vocabulary word for the number nine [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number nine [CHAR LIMIT=20] -->
     <string name="number_nine">nine</string>
 
-    <!-- Vocabulary word for the number ten [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the number ten [CHAR LIMIT=20] -->
     <string name="number_ten">ten</string>
 
-    <!-- Vocabulary word for the father family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the father pop member [CHAR LIMIT=20] -->
     <string name="family_father">father</string>
 
-    <!-- Vocabulary word for the mother family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the mother pop member [CHAR LIMIT=20] -->
     <string name="family_mother">mother</string>
 
-    <!-- Vocabulary word for the son family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the son pop member [CHAR LIMIT=20] -->
     <string name="family_son">son</string>
 
-    <!-- Vocabulary word for the daughter family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the daughter pop member [CHAR LIMIT=20] -->
     <string name="family_daughter">daughter</string>
 
-    <!-- Vocabulary word for the older brother family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the older brother pop member [CHAR LIMIT=20] -->
     <string name="family_older_brother">older brother</string>
 
-    <!-- Vocabulary word for the younger brother family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the younger brother pop member [CHAR LIMIT=20] -->
     <string name="family_younger_brother">younger brother</string>
 
-    <!-- Vocabulary word for the older sister family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the older sister pop member [CHAR LIMIT=20] -->
     <string name="family_older_sister">older sister</string>
 
-    <!-- Vocabulary word for the younger sister family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the younger sister pop member [CHAR LIMIT=20] -->
     <string name="family_younger_sister">younger sister</string>
 
-    <!-- Vocabulary word for the grandmother family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the grandmother pop member [CHAR LIMIT=20] -->
     <string name="family_grandmother">grandmother</string>
 
-    <!-- Vocabulary word for the grandfather family member [CHAR LIMIT=20] -->
+    <!-- Vocabulary song for the grandfather pop member [CHAR LIMIT=20] -->
     <string name="family_grandfather">grandfather</string>
 
     <!-- Vocabulary phrase for "Where are you going?" [CHAR LIMIT=30] -->

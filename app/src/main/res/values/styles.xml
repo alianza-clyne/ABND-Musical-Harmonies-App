@@ -9,7 +9,7 @@
 
     </style>
 
-    <!-- Style for a category of vocabulary words -->
+    <!-- Style for a category of songs -->
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>

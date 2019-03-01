@@ -20,17 +20,17 @@
         </activity>
 
         <activity
-            android:name=".NumbersActivity"
-            android:label="@string/category_numbers" />
+            android:name=".GospelActivity"
+            android:label="@string/category_gospel" />
         <activity
-            android:name=".FamilyActivity"
-            android:label="@string/category_family" />
+            android:name=".PopActivity"
+            android:label="@string/category_pop" />
         <activity
-            android:name=".ColorsActivity"
-            android:label="@string/category_colors" />
+            android:name=".RnBActivity"
+            android:label="@string/category_rnb" />
         <activity
-            android:name=".PhrasesActivity"
-            android:label="@string/category_phrases" />
+            android:name=".InstrumentalActivity"
+            android:label="@string/category_instrumental" />
 
     </application>
 

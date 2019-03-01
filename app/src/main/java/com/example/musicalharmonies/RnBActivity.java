@@ -12,7 +12,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ColorsActivity extends AppCompatActivity {
+public class RnBActivity extends AppCompatActivity {
 
 
         /** Handles playback of all the sound files */
@@ -48,7 +48,7 @@ public class ColorsActivity extends AppCompatActivity {
                     // both cases the same way because our app is playing short sound files.
 
                     // Pause playback and reset player to the start of the file. That way, we can
-                    // play the word from the beginning when we resume playback.
+                    // play the song from the beginning when we resume playback.
                     mMediaPlayer.pause();
                     mMediaPlayer.seekTo(0);
                 } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
@@ -65,41 +65,41 @@ public class ColorsActivity extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.word_list);
+            setContentView(R.layout.song_list);
 
             // Create and setup the {@link AudioManager} to request audio focus
             mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
-            // Create a list of words
-            final ArrayList<Word> words = new ArrayList<Word>();
-            words.add(new Word(R.string.color_red, R.string.miwok_color_red,
+            // Create a list of songs
+            final ArrayList<Song> songs = new ArrayList<Song>();
+            songs.add(new Song(R.string.color_red, R.string.miwok_color_red,
                     R.drawable.color_red, R.raw.color_red));
-            words.add(new Word(R.string.color_mustard_yellow, R.string.miwok_color_mustard_yellow,
+            songs.add(new Song(R.string.color_mustard_yellow, R.string.miwok_color_mustard_yellow,
                     R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
-            words.add(new Word(R.string.color_dusty_yellow, R.string.miwok_color_dusty_yellow,
+            songs.add(new Song(R.string.color_dusty_yellow, R.string.miwok_color_dusty_yellow,
                     R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-            words.add(new Word(R.string.color_green, R.string.miwok_color_green,
+            songs.add(new Song(R.string.color_green, R.string.miwok_color_green,
                     R.drawable.color_green, R.raw.color_green));
-            words.add(new Word(R.string.color_brown, R.string.miwok_color_brown,
+            songs.add(new Song(R.string.color_brown, R.string.miwok_color_brown,
                     R.drawable.color_brown, R.raw.color_brown));
-            words.add(new Word(R.string.color_gray, R.string.miwok_color_gray,
+            songs.add(new Song(R.string.color_gray, R.string.miwok_color_gray,
                     R.drawable.color_gray, R.raw.color_gray));
-            words.add(new Word(R.string.color_black, R.string.miwok_color_black,
+            songs.add(new Song(R.string.color_black, R.string.miwok_color_black,
                     R.drawable.color_black, R.raw.color_black));
-            words.add(new Word(R.string.color_white, R.string.miwok_color_white,
+            songs.add(new Song(R.string.color_white, R.string.miwok_color_white,
                     R.drawable.color_white, R.raw.color_white));
 
-            // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+            // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
             // adapter knows how to create list items for each item in the list.
-            WordAdapter adapter = new WordAdapter(this, words, R.color.category_colors);
+            SongAdapter adapter = new SongAdapter(this, songs, R.color.category_rnb);
 
             // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
             // There should be a {@link ListView} with the view ID called list, which is declared in the
-            // word_list.xml layout file.
+            // song_list.xml layout file.
             ListView listView = (ListView) findViewById(R.id.list);
 
-            // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-            // {@link ListView} will display list items for each {@link Word} in the list.
+            // Make the {@link ListView} use the {@link SongAdapter} we created above, so that the
+            // {@link ListView} will display list items for each {@link Song} in the list.
             listView.setAdapter(adapter);
 
             // Set a click listener to play the audio when the list item is clicked on
@@ -110,8 +110,8 @@ public class ColorsActivity extends AppCompatActivity {
                     // play a different sound file
                     releaseMediaPlayer();
 
-                    // Get the {@link Word} object at the given position the user clicked on
-                    Word word = words.get(position);
+                    // Get the {@link Song} object at the given position the user clicked on
+                    Song song = songs.get(position);
 
                     // Request audio focus so in order to play the audio file. The app needs to play a
                     // short audio file, so we will request audio focus with a short amount of time
@@ -123,8 +123,8 @@ public class ColorsActivity extends AppCompatActivity {
                         // We have audio focus now.
 
                         // Create and setup the {@link MediaPlayer} for the audio resource associated
-                        // with the current word
-                        mMediaPlayer = MediaPlayer.create(ColorsActivity.this, word.getAudioResourceId());
+                        // with the current song
+                        mMediaPlayer = MediaPlayer.create(RnBActivity.this, song.getAudioResourceId());
 
                         // Start the audio file
                         mMediaPlayer.start();

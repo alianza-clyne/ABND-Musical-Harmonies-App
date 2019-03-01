@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Original colors included in Android Studio generated file -->
+    <!-- Original rnb included in Android Studio generated file -->
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
@@ -15,16 +15,20 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
-    <!-- Background color for the numbers category -->
-    <color name="category_numbers">#FD8E09</color>
+    <!-- Background color for the Gospel Melodies category -->
+    <!-- Used to be background color for Numbers category in Miwok App -->
+    <color name="category_gospel">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
-    <color name="category_family">#379237</color>
+    <!-- Background color for the Pop Melodies category -->
+    <!-- Used to be background color for Family Members category in Miwok App -->
+    <color name="category_pop">#379237</color>
 
-    <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
+    <!-- Background color for the RnB Melodies category -->
+    <!-- Used to be background color for Colors category in Miwok App -->
+    <color name="category_rnb">#8800A0</color>
 
-    <!-- Background color for the phrases category -->
-    <color name="category_phrases">#16AFCA</color>
+    <!-- Background color for the Instrumental Melodies category -->
+    <!-- Used to be background color for Phrases category in Miwok App -->
+    <color name="category_instrumental">#16AFCA</color>
 
 </resources>

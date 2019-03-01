@@ -31,52 +31,52 @@
         android:background="@color/tan_background"
         android:orientation="vertical">
 
-    <!-- Numbers category -->
+    <!-- Gospel category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_numbers">
+        android:background="@color/category_gospel">
         <TextView
-            android:id="@+id/numbers"
+            android:id="@+id/gospel"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_numbers" />
+            android:text="@string/category_gospel" />
     </FrameLayout>
 
-    <!-- Family category -->
+    <!-- Pop category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_family">
+        android:background="@color/category_pop">
         <TextView
-            android:id="@+id/family"
+            android:id="@+id/pop"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_family" />
+            android:text="@string/category_pop" />
     </FrameLayout>
 
-    <!-- Colors category -->
+    <!-- RnB category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_colors">
+        android:background="@color/category_rnb">
         <TextView
-            android:id="@+id/colors"
+            android:id="@+id/rnb"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_colors" />
+            android:text="@string/category_rnb" />
     </FrameLayout>
 
-    <!-- Phrases category -->
+    <!-- Instrumental category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_phrases">
+        android:background="@color/category_instrumental">
         <TextView
-            android:id="@+id/phrases"
+            android:id="@+id/instrumental"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_phrases" />
+            android:text="@string/category_instrumental" />
     </FrameLayout>
 
     </LinearLayout>

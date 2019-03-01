@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class PhrasesActivity extends AppCompatActivity {
+public class InstrumentalActivity extends AppCompatActivity {
 
     /** Handles playback of all the sound files */
     private MediaPlayer mMediaPlayer;
@@ -46,7 +46,7 @@ public class PhrasesActivity extends AppCompatActivity {
                 // both cases the same way because our app is playing short sound files.
 
                 // Pause playback and reset player to the start of the file. That way, we can
-                // play the word from the beginning when we resume playback.
+                // play the song from the beginning when we resume playback.
                 mMediaPlayer.pause();
                 mMediaPlayer.seekTo(0);
             } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
@@ -63,45 +63,45 @@ public class PhrasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.song_list);
 
         // Create and setup the {@link AudioManager} to request audio focus
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
-        // Create a list of words
-        final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(R.string.phrase_where_are_you_going,
+        // Create a list of songs
+        final ArrayList<Song> songs = new ArrayList<Song>();
+        songs.add(new Song(R.string.phrase_where_are_you_going,
                 R.string.miwok_phrase_where_are_you_going, R.raw.phrase_where_are_you_going));
-        words.add(new Word(R.string.phrase_what_is_your_name,
+        songs.add(new Song(R.string.phrase_what_is_your_name,
                 R.string.miwok_phrase_what_is_your_name, R.raw.phrase_what_is_your_name));
-        words.add(new Word(R.string.phrase_my_name_is,
+        songs.add(new Song(R.string.phrase_my_name_is,
                 R.string.miwok_phrase_my_name_is, R.raw.phrase_my_name_is));
-        words.add(new Word(R.string.phrase_how_are_you_feeling,
+        songs.add(new Song(R.string.phrase_how_are_you_feeling,
                 R.string.miwok_phrase_how_are_you_feeling, R.raw.phrase_how_are_you_feeling));
-        words.add(new Word(R.string.phrase_im_feeling_good,
+        songs.add(new Song(R.string.phrase_im_feeling_good,
                 R.string.miwok_phrase_im_feeling_good, R.raw.phrase_im_feeling_good));
-        words.add(new Word(R.string.phrase_are_you_coming,
+        songs.add(new Song(R.string.phrase_are_you_coming,
                 R.string.miwok_phrase_are_you_coming, R.raw.phrase_are_you_coming));
-        words.add(new Word(R.string.phrase_yes_im_coming,
+        songs.add(new Song(R.string.phrase_yes_im_coming,
                 R.string.miwok_phrase_yes_im_coming, R.raw.phrase_yes_im_coming));
-        words.add(new Word(R.string.phrase_im_coming,
+        songs.add(new Song(R.string.phrase_im_coming,
                 R.string.miwok_phrase_im_coming, R.raw.phrase_im_coming));
-        words.add(new Word(R.string.phrase_lets_go,
+        songs.add(new Song(R.string.phrase_lets_go,
                 R.string.miwok_phrase_lets_go, R.raw.phrase_lets_go));
-        words.add(new Word(R.string.phrase_come_here,
+        songs.add(new Song(R.string.phrase_come_here,
                 R.string.miwok_phrase_come_here, R.raw.phrase_come_here));
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
+        SongAdapter adapter = new SongAdapter(this, songs, R.color.category_instrumental);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+        // song_list.xml layout file.
         ListView listView = (ListView) findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link SongAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Song} in the list.
         listView.setAdapter(adapter);
 
         // Set a click listener to play the audio when the list item is clicked on
@@ -112,8 +112,8 @@ public class PhrasesActivity extends AppCompatActivity {
                 // play a different sound file
                 releaseMediaPlayer();
 
-                // Get the {@link Word} object at the given position the user clicked on
-                Word word = words.get(position);
+                // Get the {@link Song} object at the given position the user clicked on
+                Song song = songs.get(position);
 
                 // Request audio focus so in order to play the audio file. The app needs to play a
                 // short audio file, so we will request audio focus with a short amount of time
@@ -125,8 +125,8 @@ public class PhrasesActivity extends AppCompatActivity {
                     // We have audio focus now.
 
                     // Create and setup the {@link MediaPlayer} for the audio resource associated
-                    // with the current word
-                    mMediaPlayer = MediaPlayer.create(PhrasesActivity.this, word.getAudioResourceId());
+                    // with the current song
+                    mMediaPlayer = MediaPlayer.create(InstrumentalActivity.this, song.getAudioResourceId());
 
                     // Start the audio file
                     mMediaPlayer.start();
