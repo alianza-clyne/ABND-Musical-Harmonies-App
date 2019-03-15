@@ -71,25 +71,25 @@ import java.util.ArrayList;
 
             // Create a list of songs
             final ArrayList<Song> songs = new ArrayList<Song>();
-            songs.add(new Song(R.string.family_father, R.string.miwok_family_father,
+            songs.add(new Song(R.string.artist_normani_ft_6lack, R.string.pop_waves,
                     R.drawable.family_father, R.raw.family_father));
-            songs.add(new Song(R.string.family_mother, R.string.miwok_family_mother,
+            songs.add(new Song(R.string.artist_whitney_ft_mariah, R.string.pop_when_you_believe,
                     R.drawable.family_mother, R.raw.family_mother));
-            songs.add(new Song(R.string.family_son, R.string.miwok_family_son,
+            songs.add(new Song(R.string.artist_sinead_ft_grades, R.string.pop_if_you_let_me,
                     R.drawable.family_son, R.raw.family_son));
-            songs.add(new Song(R.string.family_daughter, R.string.miwok_family_daughter,
+            songs.add(new Song(R.string.artist_ariana_grande, R.string.pop_7_rings,
                     R.drawable.family_daughter, R.raw.family_daughter));
-            songs.add(new Song(R.string.family_older_brother, R.string.miwok_family_older_brother,
+            songs.add(new Song(R.string.artist_kendrick_ft_sza, R.string.pop_all_the_stars,
                     R.drawable.family_older_brother, R.raw.family_older_brother));
-            songs.add(new Song(R.string.family_younger_brother, R.string.miwok_family_younger_brother,
+            songs.add(new Song(R.string.artist_fifth_harmony, R.string.pop_no_way,
                     R.drawable.family_younger_brother, R.raw.family_younger_brother));
-            songs.add(new Song(R.string.family_older_sister, R.string.miwok_family_older_sister,
+            songs.add(new Song(R.string.artist_michael_jackson, R.string.pop_remember_the_time,
                     R.drawable.family_older_sister, R.raw.family_older_sister));
-            songs.add(new Song(R.string.family_younger_sister, R.string.miwok_family_younger_sister,
+            songs.add(new Song(R.string.artist_bruno_ft_cardi, R.string.pop_finesse_remix,
                     R.drawable.family_younger_sister, R.raw.family_younger_sister));
-            songs.add(new Song(R.string.family_grandmother, R.string.miwok_family_grandmother,
+            songs.add(new Song(R.string.artist_kendrick_ft_rihanna, R.string.pop_loyalty,
                     R.drawable.family_grandmother, R.raw.family_grandmother));
-            songs.add(new Song(R.string.family_grandfather, R.string.miwok_family_grandfather,
+            songs.add(new Song(R.string.artist_selena, R.string.pop_dreaming_of_you,
                     R.drawable.family_grandfather, R.raw.family_grandfather));
 
             // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The

@@ -70,25 +70,25 @@ public class GospelActivity extends AppCompatActivity {
 
         // Create a list of songs
         final ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song(R.string.number_one, R.string.miwok_number_one,
+        songs.add(new Song(R.string.artist_tasha_cobbs_ft_jimi, R.string.miwok_number_one,
                 R.drawable.number_one, R.raw.number_one));
-        songs.add(new Song(R.string.number_two, R.string.miwok_number_two,
+        songs.add(new Song(R.string.artist_tasha_cobbs_ft_kierra, R.string.gospel_your_spirit,
                 R.drawable.number_two, R.raw.number_two));
-        songs.add(new Song(R.string.number_three, R.string.miwok_number_three,
+        songs.add(new Song(R.string.artist_koryn_hawthorne, R.string.gospel_wont_he_do_it,
                 R.drawable.number_three, R.raw.number_three));
-        songs.add(new Song(R.string.number_four, R.string.miwok_number_four,
+        songs.add(new Song(R.string.artist_mary_mary, R.string.gospel_god_in_me,
                 R.drawable.number_four, R.raw.number_four));
-        songs.add(new Song(R.string.number_five, R.string.miwok_number_five,
+        songs.add(new Song(R.string.artist_tamela_mann, R.string.gospel_take_me_to_the_king,
                 R.drawable.number_five, R.raw.number_five));
-        songs.add(new Song(R.string.number_six, R.string.miwok_number_six,
+        songs.add(new Song(R.string.artist_beyonce_and_walter_williams, R.string.gospel_he_still_loves_me,
                 R.drawable.number_six, R.raw.number_six));
-        songs.add(new Song(R.string.number_seven, R.string.miwok_number_seven,
+        songs.add(new Song(R.string.artist_tye_tribbett, R.string.gospel_work_it_out,
                 R.drawable.number_seven, R.raw.number_seven));
-        songs.add(new Song(R.string.number_eight, R.string.miwok_number_eight,
+        songs.add(new Song(R.string.artist_tamela_mann, R.string.gospel_i_can_only_imagine,
                 R.drawable.number_eight, R.raw.number_eight));
-        songs.add(new Song(R.string.number_nine, R.string.miwok_number_nine,
+        songs.add(new Song(R.string.artist_kirk_franklin, R.string.gospel_i_smile,
                 R.drawable.number_nine, R.raw.number_nine));
-        songs.add(new Song(R.string.number_ten, R.string.miwok_number_ten,
+        songs.add(new Song(R.string.number_ten, R.string.gospel_shackles,
                 R.drawable.number_ten, R.raw.number_ten));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The

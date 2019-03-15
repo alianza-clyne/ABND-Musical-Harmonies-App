@@ -4,134 +4,279 @@
     <string name="app_name">Musical Harmonies</string>
 
     <!-- 1st Category name for Gospel Melodies [CHAR LIMIT=20] -->
-    <!-- Used Category name for Numbers in Miwok App -->
+    <!-- Used to be Category name for Numbers in Miwok App -->
     <string name="category_gospel">Gospel Melodies</string>
 
     <!-- 2nd Category name for Pop Melodies [CHAR LIMIT=20] -->
-    <!-- Used Category name for Family Members in Miwok App -->
+    <!-- Used to be Category name for Family Members in Miwok App -->
     <string name="category_pop">Pop Melodies</string>
 
     <!-- 3rd Category name for RnB Melodies [CHAR LIMIT=20] -->
-    <!-- Used Category name for Colors in Miwok App -->
-    <string name="category_rnb">RnB Melodies</string>
+    <!-- Replaced and with escape key-->
+    <!-- Used to be Category name for Colors in Miwok App -->
+    <string name="category_rnb">R&amp;B Melodies</string>
 
     <!-- 4th Category name for Instrumental Melodies [CHAR LIMIT=20] -->
-    <!-- Used Category name for Phrases in Miwok App -->
+    <!-- Used to be Category name for Phrases in Miwok App -->
     <string name="category_instrumental">Instrumental Melodies</string>
 
+    <!-- Songs in Gospel Melodies [CHAR LIMIT=20] -->
 
-    <!-- Vocabulary song for the color red [CHAR LIMIT=20] -->
-    <string name="color_red">red</string>
+    <!-- Gospel song for You Know My Name - Tasha Cobbs Leonard ft. Jimi Cravity -->
+    <string name="gospel_you_know_my_name">You Know My Name</string>
 
-    <!-- Vocabulary song for the color dusty yellow [CHAR LIMIT=20] -->
-    <string name="color_dusty_yellow">dusty yellow</string>
+    <!-- Gospel song for Your Spirit - Tasha Cobbs Leonard ft. Kierra Sheard -->
+    <string name="gospel_your_spirit">Your Spirit</string>
 
-    <!-- Vocabulary song for the color mustard yellow [CHAR LIMIT=20] -->
-    <string name="color_mustard_yellow">mustard yellow</string>
+    <!-- Gospel song for Won't He Do It - Koryn Hawthorne -->
+    <!-- Replaced apostrophe with escape key-->
+    <string name="gospel_wont_he_do_it">Won&apos;t He Do It</string>
 
-    <!-- Vocabulary song for the color green [CHAR LIMIT=20] -->
-    <string name="color_green">green</string>
+    <!-- Gospel song for God in Me - Mary Mary -->
+    <string name="gospel_god_in_me">God in Me</string>
 
-    <!-- Vocabulary song for the color brown [CHAR LIMIT=20] -->
-    <string name="color_brown">brown</string>
+    <!-- Gospel song for Take Me To The King - Tamela Mann -->
+    <string name="gospel_take_me_to_the_king">Take Me To The King</string>
 
-    <!-- Vocabulary song for the color black [CHAR LIMIT=20] -->
-    <string name="color_black">black</string>
+    <!-- Gospel song for He Still Loves Me - Beyoncé and Walter Williams -->
+    <string name="gospel_he_still_loves_me">He Still Loves Me</string>
 
-    <!-- Vocabulary song for the color gray [CHAR LIMIT=20] -->
-    <string name="color_gray">gray</string>
+    <!-- Gospel song for Work It Out - Tye Tribbett -->
+    <string name="gospel_work_it_out">Work It Out</string>
 
-    <!-- Vocabulary song for the color white [CHAR LIMIT=20] -->
-    <string name="color_white">white</string>
+    <!-- Gospel song for I Can Only Imagine - Tamela Mann -->
+    <string name="gospel_i_can_only_imagine">I Can Only Imagine</string>
 
-    <!-- Vocabulary song for the number one [CHAR LIMIT=20] -->
-    <string name="number_one">one</string>
+    <!-- Gospel song for I Smile - Kirk Franklin -->
+    <string name="gospel_i_smile">I Smile</string>
 
-    <!-- Vocabulary song for the number two [CHAR LIMIT=20] -->
-    <string name="number_two">two</string>
+    <!-- Gospel song for Shackles (Praise You) - Mary Mary -->
+    <string name="gospel_shackles">Shackles (Praise You)</string>
 
-    <!-- Vocabulary song for the number three [CHAR LIMIT=20] -->
-    <string name="number_three">three</string>
+    <!-- Song artists in Gospel Melodies [CHAR LIMIT=20] -->
 
-    <!-- Vocabulary song for the number four [CHAR LIMIT=20] -->
-    <string name="number_four">four</string>
+    <!-- Gospel song artist for You Know My Name - Tasha Cobbs Leonard ft. Jimi Cravity -->
+    <string name="artist_tasha_cobbs_ft_jimi">Tasha Cobbs Leonard ft. Jimi Cravity</string>
 
-    <!-- Vocabulary song for the number five [CHAR LIMIT=20] -->
-    <string name="number_five">five</string>
+    <!-- Gospel song artist for Your Spirit - Tasha Cobbs Leonard ft. Kierra Sheard -->
+    <string name="artist_tasha_cobbs_ft_kierra">Tasha Cobbs Leonard ft. Kierra Sheard</string>
 
-    <!-- Vocabulary song for the number six [CHAR LIMIT=20] -->
-    <string name="number_six">six</string>
+    <!-- Gospel song artist for Won't He Do It - Koryn Hawthorne -->
+    <string name="artist_koryn_hawthorne">Koryn Hawthorne</string>
 
-    <!-- Vocabulary song for the number seven [CHAR LIMIT=20] -->
-    <string name="number_seven">seven</string>
+    <!-- Gospel song artist for God in Me - Mary Mary -->
+    <string name="artist_mary_mary">Mary Mary</string>
 
-    <!-- Vocabulary song for the number eight [CHAR LIMIT=20] -->
-    <string name="number_eight">eight</string>
+    <!-- Gospel song artist for Take Me To The King - Tamela Mann -->
+    <string name="artist_tamela_mann">Tamela Mann</string>
 
-    <!-- Vocabulary song for the number nine [CHAR LIMIT=20] -->
-    <string name="number_nine">nine</string>
+    <!-- Gospel song artist for He Still Loves Me - Beyoncé and Walter Williams -->
+    <string name="artist_beyonce_and_walter_williams">Beyoncé and Walter Williams</string>
 
-    <!-- Vocabulary song for the number ten [CHAR LIMIT=20] -->
-    <string name="number_ten">ten</string>
+    <!-- Gospel song artist for Work It Out - Tye Tribbett -->
+    <string name="artist_tye_tribbett">Tye Tribbett</string>
 
-    <!-- Vocabulary song for the father pop member [CHAR LIMIT=20] -->
-    <string name="family_father">father</string>
+    <!-- Gospel song artist for I Can Only Imagine - Tamela Mann -->
+    <!-- Gospel song artist name already defined -->
 
-    <!-- Vocabulary song for the mother pop member [CHAR LIMIT=20] -->
-    <string name="family_mother">mother</string>
+    <!-- Gospel song artist for I Smile - Kirk Franklin -->
+    <string name="artist_kirk_franklin">Kirk Franklin</string>
 
-    <!-- Vocabulary song for the son pop member [CHAR LIMIT=20] -->
-    <string name="family_son">son</string>
+    <!-- Gospel song artist for Shackles (Praise You) - Mary Mary -->
+    <!-- Gospel song artist name already defined -->
 
-    <!-- Vocabulary song for the daughter pop member [CHAR LIMIT=20] -->
-    <string name="family_daughter">daughter</string>
+    <!-- Songs in Pop Melodies [CHAR LIMIT=20] -->
 
-    <!-- Vocabulary song for the older brother pop member [CHAR LIMIT=20] -->
-    <string name="family_older_brother">older brother</string>
+    <!-- Pop song for Waves - Normani ft. 6LACK -->
+    <string name="pop_waves">Waves</string>
 
-    <!-- Vocabulary song for the younger brother pop member [CHAR LIMIT=20] -->
-    <string name="family_younger_brother">younger brother</string>
+    <!-- Pop song for When You Believe - Whitney Houston ft. Mariah Carey -->
+    <string name="pop_when_you_believe">When You Believe</string>
 
-    <!-- Vocabulary song for the older sister pop member [CHAR LIMIT=20] -->
-    <string name="family_older_sister">older sister</string>
+    <!-- Pop song for If You Let Me - Sinead Harnett ft. GRADES -->
+    <string name="pop_if_you_let_me">If You Let Me</string>
 
-    <!-- Vocabulary song for the younger sister pop member [CHAR LIMIT=20] -->
-    <string name="family_younger_sister">younger sister</string>
+    <!-- Pop song for 7 Rings - Ariana Grande -->
+    <string name="pop_7_rings">7 Rings</string>
 
-    <!-- Vocabulary song for the grandmother pop member [CHAR LIMIT=20] -->
-    <string name="family_grandmother">grandmother</string>
+    <!-- Pop song for All The Stars - Kendrick Lamar, SZA -->
+    <string name="pop_all_the_stars">All The Stars</string>
 
-    <!-- Vocabulary song for the grandfather pop member [CHAR LIMIT=20] -->
-    <string name="family_grandfather">grandfather</string>
+    <!-- Pop song for No Way - Fifth Harmony -->
+    <string name="pop_no_way">No Way</string>
 
-    <!-- Vocabulary phrase for "Where are you going?" [CHAR LIMIT=30] -->
-    <string name="phrase_where_are_you_going">Where are you going?</string>
+    <!-- Pop song for Remember The Time - Michael Jackson -->
+    <string name="pop_remember_the_time">Remember The Time</string>
 
-    <!-- Vocabulary phrase for "What is your name?" [CHAR LIMIT=20] -->
-    <string name="phrase_what_is_your_name">What is your name?</string>
+    <!-- Pop song for Finesse (Remix) - Bruno Mars ft. Cardi B -->
+    <string name="pop_finesse_remix">Finesse (Remix)</string>
 
-    <!-- Vocabulary phrase for "My name is..." [CHAR LIMIT=20] -->
-    <string name="phrase_my_name_is">My name is...</string>
+    <!-- Pop song for LOYALTY - Kendrick Lamar. ft. Rihanna -->
+    <string name="pop_loyalty">LOYALTY</string>
 
-    <!-- Vocabulary phrase for "How are you feeling?" [CHAR LIMIT=20] -->
-    <string name="phrase_how_are_you_feeling">How are you feeling?</string>
+    <!-- Pop song for Dreaming Of You - Selena -->
+    <string name="pop_dreaming_of_you">Dreaming of You </string>
 
-    <!-- Vocabulary phrase for "I'm feeling good." [CHAR LIMIT=20] -->
-    <string name="phrase_im_feeling_good">I\'m feeling good.</string>
+    <!-- Song artists in Pop Melodies [CHAR LIMIT=20] -->
 
-    <!-- Vocabulary phrase for "Are you coming?" [CHAR LIMIT=20] -->
-    <string name="phrase_are_you_coming">Are you coming?</string>
+    <!-- Pop song artist for Waves - Normani ft. 6LACK -->
+    <string name="artist_normani_ft_6lack">Normani ft. 6LACK</string>
 
-    <!-- Vocabulary phrase for "Yes, I'm coming." [CHAR LIMIT=20] -->
-    <string name="phrase_yes_im_coming">"Yes, I\'m coming."</string>
+    <!-- Pop song artist for When You Believe - Whitney Houston ft. Mariah Carey -->
+    <string name="artist_whitney_ft_mariah">Whitney Houston ft. Mariah Carey</string>
 
-    <!-- Vocabulary phrase for "I'm coming." [CHAR LIMIT=20] -->
-    <string name="phrase_im_coming">I\'m coming.</string>
+    <!-- Pop song artist for If You Let Me - Sinead Harnett ft. GRADES -->
+    <string name="artist_sinead_ft_grades">Sinead Harnett ft. GRADES</string>
 
-    <!-- Vocabulary phrase for "Let's go." [CHAR LIMIT=20] -->
-    <string name="phrase_lets_go">Let\'s go.</string>
+    <!-- Pop song artist for 7 Rings - Ariana Grande -->
+    <string name="artist_ariana_grande">Ariana Grande</string>
 
-    <!-- Vocabulary phrase for "Come here." [CHAR LIMIT=20] -->
-    <string name="phrase_come_here">Come here.</string>
+    <!-- Pop song artist for All The Stars - Kendrick Lamar, SZA -->
+    <string name="artist_kendrick_ft_sza">Kendrick Lamar, SZA</string>
+
+    <!-- Pop song artist for No Way - Fifth Harmony -->
+    <string name="artist_fifth_harmony">Fifth Harmony</string>
+
+    <!-- Pop song artist for Remember The Time - Michael Jackson -->
+    <string name="artist_michael_jackson">Michael Jackson</string>
+
+    <!-- Pop song artist for Finesse (Remix) - Bruno Mars ft. Cardi B -->
+    <string name="artist_bruno_ft_cardi">Bruno Mars ft. Cardi B</string>
+
+    <!-- Pop song artist for LOYALTY - Kendrick Lamar ft. Rihanna -->
+    <string name="artist_kendrick_ft_rihanna">Kendrick Lamar ft. Rihanna</string>
+
+    <!-- Pop song artist for Dreaming Of You - Selena -->
+    <string name="artist_selena">Selena</string>
+
+
+    <!-- Songs in RnB Melodies [CHAR LIMIT=20] -->
+
+    <!-- RnB song for No, No, No - Destiny's Child -->
+    <string name="rnb_no_no_no">No, No, No</string>
+
+    <!-- RnB song for The Boy Is Mine - Brandy & Monica-->
+    <string name="rnb_boy_is_mine">The Boy Is Mine</string>
+
+    <!-- RnB song for Don't Let Go - En Vogue -->
+    <string name="rnb_dont_let_go">Don&apos;t Let Go</string>
+
+    <!-- RnB song for Say My Name - Destiny's Child -->
+    <string name="rnb_say_my_name">Say My Name</string>
+
+    <!-- RnB song for EX - Kiana Ledé -->
+    <string name="rnb_ex">EX</string>
+
+    <!-- RnB song for One In A Million - Aaliyah -->
+    <string name="rnb_one_in_a_million">One In A Million</string>
+
+    <!-- RnB song for Don't Touch My Hair x Cranes in the Sky - Normani -->
+    <string name="rnb_dont_touch_my_hair_mashup">Don&apos;t Touch My Hair x Cranes in the Sky</string>
+
+    <!-- RnB song for When I See U - Fantasia -->
+    <string name="rnb_when_i_see_you">When I See U</string>
+
+    <!-- RnB song for Adorn - Miguel -->
+    <string name="rnb_adorn">Adorn</string>
+
+    <!-- RnB song for Journey To The Past - Aaliyah -->
+    <string name="rnb_journey_to_the_past">Journey To The Past</string>
+
+    <!-- Song artists in RnB Melodies [CHAR LIMIT=20] -->
+
+    <!-- RnB song artist for No, No, No - Destiny's Child -->
+    <string name="artist_destiny_child">Destiny&apos;s Child</string>
+
+    <!-- RnB song artist for The Boy Is Mine - Brandy & Monica-->
+    <string name="artist_brandy_and_monica">Brandy &amp; Monica</string>
+
+    <!-- RnB song artist for Don't Let Go - En Vogue -->
+    <string name="artist_en_vogue">En Vogue</string>
+
+    <!-- RnB song artist for Say My Name - Destiny's Child -->
+    <!-- Rnb song artist name already defined -->
+
+    <!-- RnB song artist for EX - Kiana Ledé -->
+    <string name="artist_kiana_lede">Kiana Ledé</string>
+
+    <!-- RnB song artist for One In A Million - Aaliyah -->
+    <string name="artist_aaliyah">Aaliyah</string>
+
+    <!-- RnB song artist for Don't Touch My Hair x Cranes in the Sky - Normani -->
+    <string name="artist_normani">Normani</string>
+
+    <!-- RnB song artist for When I See U - Fantasia -->
+    <string name="artist_fantasia">Fantasia</string>
+
+    <!-- RnB song artist for Adorn - Miguel -->
+    <string name="artist_miguel">Miguel</string>
+
+    <!-- RnB song artist for Journey To The Past - Aaliyah -->
+    <!-- Rnb song artist name already defined -->
+
+    <!-- Songs in Instrumental Melodies [CHAR LIMIT=20] -->
+
+    <!-- Instrumental song for Havana (Instrumental) - Camila Cabello -->
+    <string name="instrumental_havana">Havana (Instrumental)</string>
+
+    <!-- Instrumental song for God Is A Woman (Instrumental) - Southern University Human Jukebox -->
+    <string name="instrumental_god_is_a_woman">God Is A Woman (Instrumental)</string>
+
+    <!-- Instrumental song for Dangerous Woman (Instrumental) - Ariana Grande -->
+    <string name="instrumental_dangerous_woman">Dangerous Woman (Instrumental)</string>
+
+    <!-- Instrumental song for Never Be Like You (Instrumental) - Flume ft.  Kai -->
+    <string name="instrumental_never_be_like_you">Never Be Like You (Instrumental)</string>
+
+    <!-- Instrumental song for Halo (Instrumental) - Beyoncé -->
+    <string name="instrumental_halo">Halo (Instrumental)</string>
+
+    <!-- Instrumental song for Drunk In Love (Instrumental) - Beyoncé -->
+    <string name="instrumental_drunk_in_love">Drunk In Love (Instrumental)</string>
+
+    <!-- Instrumental song for He Loves Me (Instrumental) - Southern University Human Jukebox -->
+    <string name="instrumental_he_loves_me">He Loves Me (Instrumental)</string>
+
+    <!-- Instrumental song for The Weekend (Instrumental) - Southern University Human Jukebox -->
+    <string name="instrumental_the_weekend">The Weekend (Instrumental)</string>
+
+    <!-- Instrumental song for Drowning (Instrumental) - Southern University Human Jukebox -->
+    <string name="instrumental_drowning">Drowning (Instrumental)</string>
+
+    <!-- Instrumental song for Trip (Instrumental) - Southern University Human Jukebox -->
+    <string name="instrumental_trip">Trip (Instrumental)</string>
+
+
+    <!-- Song artists in Instrumental Melodies [CHAR LIMIT=20] -->
+
+    <!-- Instrumental song artist for Havana (Instrumental) - Camila Cabello -->
+    <string name="artist_camila_cabello">Camila Cabello</string>
+
+    <!-- Instrumental song artist for God Is A Woman (Instrumental) - Southern University Human Jukebox -->
+    <string name="artist_su_jukebox">Southern University Human Jukebox</string>
+
+    <!-- Instrumental song artist for Dangerous Woman (Instrumental) - Ariana Grande -->
+    <!-- Instrumental song artist name already defined -->
+
+    <!-- Instrumental song artist for Never Be Like You (Instrumental) - Flume ft.  Kai -->
+    <string name="artist_flume_ft_kia">Flume ft. Kai</string>
+
+    <!-- Instrumental song artist for Halo (Instrumental) - Beyoncé -->
+    <string name="artist_beyonce">Beyoncé</string>
+
+    <!-- Instrumental song artist for Drunk In Love (Instrumental) - Beyoncé -->
+    <!-- Instrumental song artist name already defined -->
+
+    <!-- Instrumental song artist for He Loves Me (Instrumental) - Southern University Human Jukebox -->
+    <!-- Instrumental song artist name already defined -->
+
+    <!-- Instrumental song artist for The Weekend (Instrumental) - Southern University Human Jukebox -->
+    <!-- Instrumental song artist name already defined -->
+
+    <!-- Instrumental song artist for Drowning (Instrumental) - Southern University Human Jukebox -->
+    <!-- Instrumental song artist name already defined -->
+
+    <!-- Instrumental song artist for Trip (Instrumental) - Southern University Human Jukebox -->
+    <!-- Instrumental song artist name already defined -->
 
 </resources>

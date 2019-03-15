@@ -70,26 +70,26 @@ public class InstrumentalActivity extends AppCompatActivity {
 
         // Create a list of songs
         final ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song(R.string.phrase_where_are_you_going,
-                R.string.miwok_phrase_where_are_you_going, R.raw.phrase_where_are_you_going));
-        songs.add(new Song(R.string.phrase_what_is_your_name,
-                R.string.miwok_phrase_what_is_your_name, R.raw.phrase_what_is_your_name));
+        songs.add(new Song(R.string.artist_camila_cabello,
+                R.string.instrumental_havana, R.raw.phrase_where_are_you_going));
+        songs.add(new Song(R.string.artist_su_jukebox,
+                R.string.instrumental_god_is_a_woman, R.raw.phrase_what_is_your_name));
         songs.add(new Song(R.string.phrase_my_name_is,
-                R.string.miwok_phrase_my_name_is, R.raw.phrase_my_name_is));
-        songs.add(new Song(R.string.phrase_how_are_you_feeling,
-                R.string.miwok_phrase_how_are_you_feeling, R.raw.phrase_how_are_you_feeling));
-        songs.add(new Song(R.string.phrase_im_feeling_good,
-                R.string.miwok_phrase_im_feeling_good, R.raw.phrase_im_feeling_good));
+                R.string.instrumental_dangerous_woman, R.raw.phrase_my_name_is));
+        songs.add(new Song(R.string.artist_flume_ft_kia,
+                R.string.instrumental_never_be_like_you, R.raw.phrase_how_are_you_feeling));
+        songs.add(new Song(R.string.artist_beyonce,
+                R.string.instrumental_halo, R.raw.phrase_im_feeling_good));
         songs.add(new Song(R.string.phrase_are_you_coming,
-                R.string.miwok_phrase_are_you_coming, R.raw.phrase_are_you_coming));
+                R.string.instrumental_drunk_in_love, R.raw.phrase_are_you_coming));
         songs.add(new Song(R.string.phrase_yes_im_coming,
-                R.string.miwok_phrase_yes_im_coming, R.raw.phrase_yes_im_coming));
+                R.string.instrumental_he_loves_me, R.raw.phrase_yes_im_coming));
         songs.add(new Song(R.string.phrase_im_coming,
-                R.string.miwok_phrase_im_coming, R.raw.phrase_im_coming));
+                R.string.instrumental_the_weekend, R.raw.phrase_im_coming));
         songs.add(new Song(R.string.phrase_lets_go,
-                R.string.miwok_phrase_lets_go, R.raw.phrase_lets_go));
+                R.string.instrumental_drowning, R.raw.phrase_lets_go));
         songs.add(new Song(R.string.phrase_come_here,
-                R.string.miwok_phrase_come_here, R.raw.phrase_come_here));
+                R.string.instrumental_trip, R.raw.phrase_come_here));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.

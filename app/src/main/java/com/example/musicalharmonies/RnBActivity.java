@@ -72,21 +72,21 @@ public class RnBActivity extends AppCompatActivity {
 
             // Create a list of songs
             final ArrayList<Song> songs = new ArrayList<Song>();
-            songs.add(new Song(R.string.color_red, R.string.miwok_color_red,
+            songs.add(new Song(R.string.artist_destiny_child, R.string.rnb_no_no_no,
                     R.drawable.color_red, R.raw.color_red));
-            songs.add(new Song(R.string.color_mustard_yellow, R.string.miwok_color_mustard_yellow,
+            songs.add(new Song(R.string.artist_en_vogue, R.string.rnb_dont_let_go,
                     R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
-            songs.add(new Song(R.string.color_dusty_yellow, R.string.miwok_color_dusty_yellow,
+            songs.add(new Song(R.string.artist_brandy_and_monica, R.string.rnb_boy_is_mine,
                     R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-            songs.add(new Song(R.string.color_green, R.string.miwok_color_green,
+            songs.add(new Song(R.string.color_green, R.string.rnb_say_my_name,
                     R.drawable.color_green, R.raw.color_green));
-            songs.add(new Song(R.string.color_brown, R.string.miwok_color_brown,
+            songs.add(new Song(R.string.artist_kiana_lede, R.string.rnb_ex,
                     R.drawable.color_brown, R.raw.color_brown));
-            songs.add(new Song(R.string.color_gray, R.string.miwok_color_gray,
+            songs.add(new Song(R.string.artist_normani, R.string.rnb_dont_touch_my_hair_mashup,
                     R.drawable.color_gray, R.raw.color_gray));
-            songs.add(new Song(R.string.color_black, R.string.miwok_color_black,
+            songs.add(new Song(R.string.artist_aaliyah, R.string.rnb_one_in_a_million,
                     R.drawable.color_black, R.raw.color_black));
-            songs.add(new Song(R.string.color_white, R.string.miwok_color_white,
+            songs.add(new Song(R.string.artist_fantasia, R.string.rnb_when_i_see_you,
                     R.drawable.color_white, R.raw.color_white));
 
             // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
