@@ -30,7 +30,7 @@
 
     <!-- Gospel song for Won't He Do It - Koryn Hawthorne -->
     <!-- Replaced apostrophe with escape key-->
-    <string name="gospel_wont_he_do_it">Won&apos;t He Do It</string>
+    <string name="gospel_wont_he_do_it">Won\'t He Do It</string>
 
     <!-- Gospel song for God in Me - Mary Mary -->
     <string name="gospel_god_in_me">God in Me</string>
@@ -159,7 +159,7 @@
     <string name="rnb_boy_is_mine">The Boy Is Mine</string>
 
     <!-- RnB song for Don't Let Go - En Vogue -->
-    <string name="rnb_dont_let_go">Don&apos;t Let Go</string>
+    <string name="rnb_dont_let_go">Don\'t Let Go</string>
 
     <!-- RnB song for Say My Name - Destiny's Child -->
     <string name="rnb_say_my_name">Say My Name</string>
@@ -171,7 +171,7 @@
     <string name="rnb_one_in_a_million">One In A Million</string>
 
     <!-- RnB song for Don't Touch My Hair x Cranes in the Sky - Normani -->
-    <string name="rnb_dont_touch_my_hair_mashup">Don&apos;t Touch My Hair x Cranes in the Sky</string>
+    <string name="rnb_dont_touch_my_hair_mashup">Don\'t Touch My Hair x Cranes in the Sky</string>
 
     <!-- RnB song for When I See U - Fantasia -->
     <string name="rnb_when_i_see_you">When I See U</string>
@@ -185,7 +185,7 @@
     <!-- Song artists in RnB Melodies [CHAR LIMIT=20] -->
 
     <!-- RnB song artist for No, No, No - Destiny's Child -->
-    <string name="artist_destiny_child">Destiny&apos;s Child</string>
+    <string name="artist_destiny_child">Destiny\'s Child</string>
 
     <!-- RnB song artist for The Boy Is Mine - Brandy & Monica-->
     <string name="artist_brandy_and_monica">Brandy &amp; Monica</string>
