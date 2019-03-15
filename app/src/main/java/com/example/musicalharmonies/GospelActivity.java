@@ -70,26 +70,26 @@ public class GospelActivity extends AppCompatActivity {
 
         // Create a list of songs
         final ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song(R.string.artist_tasha_cobbs_ft_jimi, R.string.miwok_number_one,
-                R.drawable.number_one, R.raw.number_one));
+        songs.add(new Song(R.string.artist_tasha_cobbs_ft_jimi, R.string.gospel_you_know_my_name,
+                R.drawable.number_one, R.raw.gospel_you_know_my_name));
         songs.add(new Song(R.string.artist_tasha_cobbs_ft_kierra, R.string.gospel_your_spirit,
-                R.drawable.number_two, R.raw.number_two));
+                R.drawable.number_two, R.raw.gospel_your_spirit));
         songs.add(new Song(R.string.artist_koryn_hawthorne, R.string.gospel_wont_he_do_it,
-                R.drawable.number_three, R.raw.number_three));
+                R.drawable.number_three, R.raw.gospel_wont_he_do_it));
         songs.add(new Song(R.string.artist_mary_mary, R.string.gospel_god_in_me,
-                R.drawable.number_four, R.raw.number_four));
+                R.drawable.number_four, R.raw.gospel_god_in_me));
         songs.add(new Song(R.string.artist_tamela_mann, R.string.gospel_take_me_to_the_king,
-                R.drawable.number_five, R.raw.number_five));
+                R.drawable.number_five, R.raw.gospel_take_me_to_the_king));
         songs.add(new Song(R.string.artist_beyonce_and_walter_williams, R.string.gospel_he_still_loves_me,
-                R.drawable.number_six, R.raw.number_six));
+                R.drawable.number_six, R.raw.gospel_he_still_loves_me));
         songs.add(new Song(R.string.artist_tye_tribbett, R.string.gospel_work_it_out,
-                R.drawable.number_seven, R.raw.number_seven));
+                R.drawable.number_seven, R.raw.gospel_work_it_out));
         songs.add(new Song(R.string.artist_tamela_mann, R.string.gospel_i_can_only_imagine,
-                R.drawable.number_eight, R.raw.number_eight));
+                R.drawable.number_eight, R.raw.gospel_i_can_only_imagine));
         songs.add(new Song(R.string.artist_kirk_franklin, R.string.gospel_i_smile,
-                R.drawable.number_nine, R.raw.number_nine));
-        songs.add(new Song(R.string.number_ten, R.string.gospel_shackles,
-                R.drawable.number_ten, R.raw.number_ten));
+                R.drawable.number_nine, R.raw.gospel_i_smile));
+        songs.add(new Song(R.string.artist_mary_mary, R.string.gospel_shackles,
+                R.drawable.number_ten, R.raw.gospel_shackles));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.
