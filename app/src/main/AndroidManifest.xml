@@ -19,18 +19,54 @@
 
         </activity>
 
+        <!-- Gospel Activity -->
         <activity
             android:name=".GospelActivity"
-            android:label="@string/category_gospel" />
+            android:label="@string/category_gospel">
+
+                <!-- This creates a back button in this activity.
+                When clicked, it will take you to the Main Activity -->
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity" />
+        </activity>
+
+
+        <!-- Pop Activity -->
         <activity
             android:name=".PopActivity"
-            android:label="@string/category_pop" />
+            android:label="@string/category_pop" >
+
+            <!-- This creates a back button in this activity.
+            When clicked, it will take you to the Main Activity -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- R&B Activity -->
         <activity
             android:name=".RnBActivity"
-            android:label="@string/category_rnb" />
+            android:label="@string/category_rnb" >
+
+            <!-- This creates a back button in this activity.
+            When clicked, it will take you to the Main Activity -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Instrumental Activity -->
         <activity
             android:name=".InstrumentalActivity"
-            android:label="@string/category_instrumental" />
+            android:label="@string/category_instrumental" >
+
+            <!-- This creates a back button in this activity.
+            When clicked, it will take you to the Main Activity -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
     </application>
 
