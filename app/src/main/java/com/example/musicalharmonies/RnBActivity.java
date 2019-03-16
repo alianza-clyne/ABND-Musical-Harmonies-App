@@ -73,25 +73,25 @@ public class RnBActivity extends AppCompatActivity {
             // Create a list of songs
             final ArrayList<Song> songs = new ArrayList<Song>();
             songs.add(new Song(R.string.artist_destiny_child, R.string.rnb_no_no_no,
-                    R.drawable.color_red, R.raw.rnb_no_no_no));
+                    R.drawable.rnb_no_no_no, R.raw.rnb_no_no_no));
             songs.add(new Song(R.string.artist_en_vogue, R.string.rnb_dont_let_go,
-                    R.drawable.color_mustard_yellow, R.raw.rnb_dont_let_go));
+                    R.drawable.rnb_dont_let_go, R.raw.rnb_dont_let_go));
             songs.add(new Song(R.string.artist_brandy_and_monica, R.string.rnb_boy_is_mine,
-                    R.drawable.color_dusty_yellow, R.raw.rnb_boy_is_mine));
+                    R.drawable.rnb_boy_is_mine, R.raw.rnb_boy_is_mine));
             songs.add(new Song(R.string.artist_destiny_child, R.string.rnb_say_my_name,
-                    R.drawable.color_green, R.raw.rnb_say_my_name));
+                    R.drawable.rnb_say_my_name, R.raw.rnb_say_my_name));
             songs.add(new Song(R.string.artist_kiana_lede, R.string.rnb_ex,
-                    R.drawable.color_brown, R.raw.rnb_ex));
+                    R.drawable.rnb_ex, R.raw.rnb_ex));
             songs.add(new Song(R.string.artist_normani, R.string.rnb_dont_touch_my_hair_mashup,
-                    R.drawable.color_gray, R.raw.rnb_dont_touch_my_hair_mashup));
+                    R.drawable.rnb_dont_touch_my_hair_mashup, R.raw.rnb_dont_touch_my_hair_mashup));
             songs.add(new Song(R.string.artist_aaliyah, R.string.rnb_one_in_a_million,
-                    R.drawable.color_black, R.raw.rnb_one_in_a_million));
+                    R.drawable.rnb_one_in_a_million, R.raw.rnb_one_in_a_million));
             songs.add(new Song(R.string.artist_fantasia, R.string.rnb_when_i_see_you,
-                    R.drawable.color_white, R.raw.rnb_when_i_see_you));
+                    R.drawable.rnb_when_i_see_you, R.raw.rnb_when_i_see_you));
             songs.add(new Song(R.string.artist_miguel, R.string.rnb_adorn,
-                    R.drawable.color_white, R.raw.rnb_adorn));
+                    R.drawable.rnb_adorn, R.raw.rnb_adorn));
             songs.add(new Song(R.string.artist_aaliyah, R.string.rnb_journey_to_the_past,
-                    R.drawable.color_white, R.raw.rnb_journey_to_the_past));
+                    R.drawable.rnb_journey_to_the_past, R.raw.rnb_journey_to_the_past));
 
             // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
             // adapter knows how to create list items for each item in the list.

@@ -72,25 +72,25 @@ import java.util.ArrayList;
             // Create a list of songs
             final ArrayList<Song> songs = new ArrayList<Song>();
             songs.add(new Song(R.string.artist_normani_ft_6lack, R.string.pop_waves,
-                    R.drawable.family_father, R.raw.pop_waves));
+                    R.drawable.pop_waves, R.raw.pop_waves));
             songs.add(new Song(R.string.artist_whitney_ft_mariah, R.string.pop_when_you_believe,
-                    R.drawable.family_mother, R.raw.pop_when_you_believe));
+                    R.drawable.pop_when_you_believe, R.raw.pop_when_you_believe));
             songs.add(new Song(R.string.artist_sinead_ft_grades, R.string.pop_if_you_let_me,
-                    R.drawable.family_son, R.raw.pop_if_you_let_me));
+                    R.drawable.pop_if_you_let_me, R.raw.pop_if_you_let_me));
             songs.add(new Song(R.string.artist_ariana_grande, R.string.pop_7_rings,
-                    R.drawable.family_daughter, R.raw.pop_7_rings));
+                    R.drawable.pop_7_rings, R.raw.pop_7_rings));
             songs.add(new Song(R.string.artist_kendrick_ft_sza, R.string.pop_all_the_stars,
-                    R.drawable.family_older_brother, R.raw.pop_all_the_stars));
+                    R.drawable.pop_all_the_stars, R.raw.pop_all_the_stars));
             songs.add(new Song(R.string.artist_fifth_harmony, R.string.pop_no_way,
-                    R.drawable.family_younger_brother, R.raw.pop_no_way));
+                    R.drawable.pop_no_way, R.raw.pop_no_way));
             songs.add(new Song(R.string.artist_michael_jackson, R.string.pop_remember_the_time,
-                    R.drawable.family_older_sister, R.raw.pop_remember_the_time));
+                    R.drawable.pop_remember_the_time, R.raw.pop_remember_the_time));
             songs.add(new Song(R.string.artist_bruno_ft_cardi, R.string.pop_finesse_remix,
-                    R.drawable.family_younger_sister, R.raw.pop_finesse_remix));
+                    R.drawable.pop_finesse_remix, R.raw.pop_finesse_remix));
             songs.add(new Song(R.string.artist_kendrick_ft_rihanna, R.string.pop_loyalty,
-                    R.drawable.family_grandmother, R.raw.pop_loyalty));
+                    R.drawable.pop_loyalty, R.raw.pop_loyalty));
             songs.add(new Song(R.string.artist_selena, R.string.pop_dreaming_of_you,
-                    R.drawable.family_grandfather, R.raw.pop_dreaming_of_you));
+                    R.drawable.pop_dreaming_of_you, R.raw.pop_dreaming_of_you));
 
             // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
             // adapter knows how to create list items for each item in the list.
