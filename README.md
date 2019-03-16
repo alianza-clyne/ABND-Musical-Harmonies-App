@@ -9,4 +9,4 @@ To view the app yourself and listen to the songs, simply click [HERE](https://gi
 
 You can also see a pictures of the app below:
 
-![Screenshot of App Main Activity](https://ibb.co/xYky3H4)
+![Screenshot of App Main Activity](https://i.ibb.co/3v3wkzJ/1-App-Main-Activity.png)
