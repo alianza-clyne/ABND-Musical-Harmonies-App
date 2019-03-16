@@ -17,66 +17,66 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the gospel category
-        TextView numbers = (TextView) findViewById(R.id.gospel);
+        TextView gospel = (TextView) findViewById(R.id.gospel);
 
         // Set a click listener on that View
-        numbers.setOnClickListener(new OnClickListener() {
+        gospel.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the gospel category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link GospelActivity}
-                Intent numbersIntent = new Intent(MainActivity.this, GospelActivity.class);
+                Intent gospelIntent = new Intent(MainActivity.this, GospelActivity.class);
 
                 // Start the new activity
-                startActivity(numbersIntent);
+                startActivity(gospelIntent);
             }
         });
 
         // Find the View that shows the pop category
-        TextView family = (TextView) findViewById(R.id.pop);
+        TextView pop = (TextView) findViewById(R.id.pop);
 
         // Set a click listener on that View
-        family.setOnClickListener(new OnClickListener() {
+        pop.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the pop category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link PopActivity}
-                Intent familyIntent = new Intent(MainActivity.this, PopActivity.class);
+                Intent popIntent = new Intent(MainActivity.this, PopActivity.class);
 
                 // Start the new activity
-                startActivity(familyIntent);
+                startActivity(popIntent);
             }
         });
 
         // Find the View that shows the rnb category
-        TextView colors = (TextView) findViewById(R.id.rnb);
+        TextView RnB = (TextView) findViewById(R.id.rnb);
 
         // Set a click listener on that View
-        colors.setOnClickListener(new OnClickListener() {
+        RnB.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the rnb category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link RnBActivity}
-                Intent colorsIntent = new Intent(MainActivity.this, RnBActivity.class);
+                Intent RnBIntent = new Intent(MainActivity.this, RnBActivity.class);
 
                 // Start the new activity
-                startActivity(colorsIntent);
+                startActivity(RnBIntent);
             }
         });
 
         // Find the View that shows the instrumental category
-        TextView phrases = (TextView) findViewById(R.id.instrumental);
+        TextView instrumental = (TextView) findViewById(R.id.instrumental);
 
         // Set a click listener on that View
-        phrases.setOnClickListener(new OnClickListener() {
+        instrumental.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the instrumental category is clicked on.
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link InstrumentalActivity}
-                Intent phrasesIntent = new Intent(MainActivity.this, InstrumentalActivity.class);
+                Intent instrumentalIntent = new Intent(MainActivity.this, InstrumentalActivity.class);
 
                 // Start the new activity
-                startActivity(phrasesIntent);
+                startActivity(instrumentalIntent);
             }
         });
     }
