@@ -1,4 +1,4 @@
-# Musical-Harmonies-App
+# Alianza's Musical Harmonies App
 This is the Musical Structure App for Udacity's Android Basics Nanodegree! I put my own spin on this app by calling it the Musical Harmonies App. This app allows you to listen to Gospel, Pop, R&B, and Instrumental melodies.
 
 ## Being A Udacious Coder
